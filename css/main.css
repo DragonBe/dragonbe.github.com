@@ -1,6 +1,6 @@
 body {
     /*background: silver scroll url('http://hotbrewd.local/images/bg.jpg') -500px -500px;*/
-    background: sandybrown scroll url('/images/brown_bg_tile.jpg') 0 0 repeat;
+    background: sandybrown scroll url('/images/brown_bg.jpg') top right no-repeat;
     text-align: center;
     font-family: Exo;
     font-size: large;
