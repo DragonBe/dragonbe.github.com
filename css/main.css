@@ -44,7 +44,7 @@ a:hover {
     padding: 20px 0;
     margin-top: 120px;
 }
-#introduction {
+#introduction, #bio {
     text-align: left;
 }
 #introduction li {
