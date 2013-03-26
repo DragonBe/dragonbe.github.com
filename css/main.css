@@ -1,0 +1,88 @@
+body {
+    /*background: silver scroll url('http://hotbrewd.local/images/bg.jpg') -500px -500px;*/
+    background-color: sandybrown;
+    text-align: center;
+    font-family: Exo;
+    font-size: large;
+}
+.rounded {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+}
+.roundedSmall {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+}
+.boxShadow {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.496094) 0px 0px 2px 0px;
+}
+.hbBlue { color: #3E779D;}
+
+.clear { font-size: 0pt; clear: both; }
+#master {
+    width: 600px;
+    margin: 0 auto;
+}
+#container {
+    background-color: white;
+    text-align: left;
+    padding: 5px;
+}
+#loginBox {
+    background: white;
+    padding: 20px 0;
+    margin-top: 120px;
+}
+#introduction {
+    text-align: left;
+}
+#introduction li {
+    list-style: square;
+}
+h1#logo a {
+    text-decoration: none;
+    color: black;
+}
+h1#logo a i {
+    color: #3E779D;
+}
+.facebookButton {
+    background-image: url('/images/f_logo_small.png');
+    background-repeat: no-repeat;
+    background-color: #3B5998;
+    background-position: 2px 2px;
+    color: white;
+    font-weight: bold;
+    padding: 3px 15px 3px 35px;
+    text-decoration: none;
+}
+.foursquareButton {
+    background-image: url('/images/foursquare_logo_small.png');
+    background-repeat: no-repeat;
+    background-color: #2398C9;
+    background-position: 2px 2px;
+    color: white;
+    font-weight: bold;
+    padding: 3px 15px 3px 35px;
+    text-decoration: none;
+}
+
+/** form design **/
+dl.zend_form { margin: 0; }
+dl.zend_form dt { font-weight: bold; font-size: larger; }
+dl.zend_form dd { margin: 0; }
+dl.zend_form dd input[type="text"] { font-size: larger; padding: 2px; }
+dl.zend_form dd input[type="submit"] {
+    border: 1px solid black;
+    color: white;
+    background: #3B5998;
+    padding: 2px 15px;
+    font-size: larger;
+    cursor: pointer;
+}
+dl.zend_form dd ul.autocomplete { list-style: none; border: 1px solid black; display: block; padding: 5px; position: absolute; z-index: 400; background: white;}
+dl.zend_form dd ul.autocomplete li { cursor: pointer; padding: 2px; margin: 0; font-size: larger; }
